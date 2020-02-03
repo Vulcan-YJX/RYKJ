@@ -15,8 +15,8 @@ import numpy
 import socket
 
 
-key = 'kEyd52fb0d9eaf4d97a'     #替换成微信绑定key
-path = './a.jpg'             #自己需要发送的图片路径
+key = 'kEyXXXXXXXXXXXXXXXX'     #替换成微信绑定key
+path = './test.jpg'             #自己需要发送的图片路径
 
 
 def staticLen(imageData):
