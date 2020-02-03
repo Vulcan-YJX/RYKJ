@@ -12,22 +12,35 @@ ID(int)：不同的服务请求
 """
 import cv2
 import numpy
-import struct
 import socket
 
 
-key = 'kEyXXXXXXXXXXXXXXXX'     #替换成微信绑定key
-path = './test.jpg'             #自己需要发送的图片路径
+key = 'kEyd52fb0d9eaf4d97a'     #替换成微信绑定key
+path = './a.jpg'             #自己需要发送的图片路径
+
+
+def staticLen(imageData):
+    strLen = len(str(len(imageData)))
+    if  strLen > 9:
+        input("图片尺寸过大无法发送")
+        return
+    else:
+        zeroBuf = ''
+        for i in range(9-strLen):
+            zeroBuf += '0'
+        lenData = 'pic'+ zeroBuf + str(len(imageData)) + 'mark'
+        return lenData.encode('utf-8')
 
 def encodeImg(Key,filePath,ID=0):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect(('39.106.101.197', 6999))
     img = cv2.imread(filePath)
     img = cv2.resize(img,(640,480))  # 此处仅支持640*480分辨率
-    _, img_encode = cv2.imencode('.jpg',img)
+    _, img_encode= cv2.imencode('.jpg',img)
     img_code = numpy.array(img_encode)
     img_data = img_code.tostring()
-    sendMsgs = struct.pack("l", len(img_data))+str.encode(Key)+str.encode(str(ID))+img_data
+    headMsgs = staticLen(img_data)
+    sendMsgs = headMsgs+str.encode(Key)+str.encode(str(ID))+img_data
     client.send(sendMsgs)
     rec = client.recv(1024).decode('utf-8')
     client.close()
