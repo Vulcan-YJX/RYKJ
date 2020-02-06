@@ -33,7 +33,7 @@ def staticLen(imageData):
 
 def encodeImg(Key,filePath,ID=0):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client.connect(('39.106.101.197', 6999))
+    client.connect(('www.rykj.xyz', 6999))
     img = cv2.imread(filePath)
     img = cv2.resize(img,(640,480))  # 此处仅支持640*480分辨率
     _, img_encode= cv2.imencode('.jpg',img)
