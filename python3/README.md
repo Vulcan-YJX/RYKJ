@@ -13,4 +13,4 @@ RYKJ
 ```sudo apt install python3-opencv```
 
 ## Windos用户
-```pip3 install opencv-python```
+```pip install opencv-python```
