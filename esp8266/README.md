@@ -2,7 +2,9 @@
 ===
  ## 环境配置
 
-> ### [python安装教程](https://www.runoob.com/python3/python3-install.html)
+> ### python安装教程
+>> 建议使用python3安装好后升级pip工具
+>>> #### [python安装教程](https://www.runoob.com/python3/python3-install.html)
 
 > ### 安装ampy
 >> ampy用于向刷写了microPython固件的工具包
