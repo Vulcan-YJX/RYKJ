@@ -1,7 +1,11 @@
 关注 如易科技公众平台
 ===
- ## Windows环境配置
+ ## 环境配置
 
-> ### [python安装教程](https://mp.weixin.qq.com/s/ugy4Tf-XNJb_Zs9e56DNgA)
+> ### [python安装教程](https://www.runoob.com/python3/python3-install.html)
 
-> ### [Python3图像传输例程](https://github.com/Vulcan-YJX/RYKJ/blob/master/python3/picServer.py)
+> ### 安装ampy
+>> ampy用于向刷写了microPython固件的工具包
+>>> #### [ampy安装教程](https://github.com/scientifichackers/ampy)
+
+
