@@ -27,7 +27,7 @@ def main():
         except socket.error:
             print("\r\nsocket error,do reconnect ")
             time.sleep(3)
-            sockLocal = doConnect()
+            client = doConnect()
         time.sleep(3)
 
 
