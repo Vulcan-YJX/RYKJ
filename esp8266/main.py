@@ -2,9 +2,10 @@
 import socket
 import time
 
-SSID = 'vulcan-walker'
-PASSWD = 'vulcan123'
-usrkey = "<key>kEyfda520fe5e58b421</key>"
+SSID = 'your wifi SSID'
+PASSWD = 'your wifi passwd'
+usrkey = "<key>kEy*************</key>"
+
 def connectWifi():
     import network
     wlan = network.WLAN(network.STA_IF)
@@ -36,19 +37,10 @@ while True:
             continue
         client.send(msg.encode('utf-8'))
         data = client.recv(1024).decode('utf-8')
-        print(type(data))
-        print('len data:',len(data))
-        if '一' in data:
-            print('1')
-        elif '二' in data:
-            print('2')
-        if not data:
-            break
         print('from server:',data)
     except socket.error:
         print('socket.error doConnect')
         time.sleep(2)
         client = doConnect()
 print('[+]  connect close...')
-
 client.close()
