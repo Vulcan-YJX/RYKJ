@@ -1,4 +1,4 @@
-![RYKJ](https://mmbiz.qpic.cn/mmbiz_png/Zibr0MiccibwpQia6owv6IJ2RicZA617u57vCCAV0dicQLnvHElom3rkO8YsXWicj0DUSicicdgurhcOiaXpaOib1FD7Q6ZEQ/0?wx_fmt=png)
+![RYKJ](https://mmbiz.qpic.cn/mmbiz_jpg/Zibr0MiccibwpQia6owv6IJ2RicZA617u57vC9aAaCcedJcFB7qWDsK45lWUUdFhN1xiapkg8xbBpQj1nOqWh9E4Tgag/0?wx_fmt=jpeg)
 ===
  ## Windows/Linux
 
