@@ -1,10 +1,9 @@
 RYKJ
 ===
- ## Windows/Linux
+ ## 开发环境配置
+> ### [ Aruidno配置ESP8266开发环境](https://blog.csdn.net/T_infinity/article/details/104457030)
 
-> ### [ Python3文本传输例程](https://github.com/Vulcan-YJX/RYKJ/blob/master/python3/reconnect.py)
+## 支持硬件
+> ### 支持硬件
 
-> ### [Python3图像传输例程](https://github.com/Vulcan-YJX/RYKJ/blob/master/python3/picServer.py)
-
- ## ESP8266
-> ### [eps8266文本传输例程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp8266)
+![esp8266](https://mp.weixin.qq.com/cgi-bin/getimgdata?token=2030225247&msgid=500003011&mode=large&source=biz&fileId=0&ow=1290647887)
