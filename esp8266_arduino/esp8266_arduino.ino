@@ -3,9 +3,9 @@
 #include <WiFiClient.h>
 #include <Ticker.h> 
 
-#define WIFISSID "vulcan-walker"
-#define PASSWD  "vulcan123"
-String Key = "kEyfda520fe5e58b421";
+#define WIFISSID "YOUR WIFI SSID"
+#define PASSWD  "YOUR WIFI PASSWD"
+String Key = "微信获取Key进行替换";
 
 const char *host = "www.rykj.xyz";
 String comdata = "";
