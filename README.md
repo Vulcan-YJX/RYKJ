@@ -6,7 +6,7 @@
 
  ## ESP8266
  
-> ### [eps8266_mciroPython文本传输例程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp8266)
+> ### [eps8266_mciroPython文本传输例程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp8266_python)
 
 > ### [eps8266_arduino文本传输例程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp8266_arduino)
 
