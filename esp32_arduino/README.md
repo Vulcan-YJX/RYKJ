@@ -1,7 +1,7 @@
 RYKJ
 ===
  ## 开发环境配置
-> ### [ Aruidno配置ESP8266开发环境](https://blog.csdn.net/T_infinity/article/details/104457030)
+> ### [ Aruidno配置ESP8266/esp32开发环境](https://blog.csdn.net/T_infinity/article/details/104457030)
 
  ## 快速开始
  ```修改WIFISSID和PASSWD连接为自己连接wifi的信息``` 
