@@ -9,7 +9,7 @@
 ### 安装esptool.py
 > esptool是乐鑫提供的用于刷写固件的python工具包。
 
-```pip install adafruit-ampy esptool```
+```pip install esptool```
 
 ## 快速入门
  
