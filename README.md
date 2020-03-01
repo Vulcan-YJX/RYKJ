@@ -16,7 +16,7 @@
 
 ## ESP32-CAM
 
-> ### [eps32_cam图像传输历程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp32_cam_sd)
+> ### [eps32_cam图像传输例程](https://github.com/Vulcan-YJX/RYKJ/tree/master/esp32_cam_sd)
 
 ![RYKJ](https://mmbiz.qpic.cn/mmbiz_jpg/Zibr0MiccibwpQia6owv6IJ2RicZA617u57vCDQ312TcBWicFCaA2RAgEfoZGicv2VibhrpLOuic2bUCiakxArwN6jkic143g/0?wx_fmt=jpeg)
 ===
