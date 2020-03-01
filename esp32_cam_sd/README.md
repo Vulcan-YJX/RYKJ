@@ -3,11 +3,12 @@
  ## 环境配置
 
  ### python安装教程
-> 建议使用python3安装好后升级pip工具
+> 建议使用python3安装好后升级pip工具。
 > #### [python安装教程](https://www.runoob.com/python3/python3-install.html)
 
 ### 安装esptool.py
-> esptool是乐鑫提供的用于刷写固件的python工具包
+> esptool是乐鑫提供的用于刷写固件的python工具包。
+
 ```pip install adafruit-ampy esptool```
 
 ## 快速入门
