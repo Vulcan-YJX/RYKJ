@@ -6,21 +6,23 @@
 >> 建议使用python3安装好后升级pip工具
 >>> #### [python安装教程](https://www.runoob.com/python3/python3-install.html)
 
-> ### 安装ampy
->> ampy用于向刷写了microPython固件的工具包
->>> #### [ampy安装教程](https://github.com/scientifichackers/ampy)
+> ### 安装esptool.py
+>> esptool是乐鑫提供的用于刷写固件的python工具包
+```pip install adafruit-ampy esptool```
 
- ## 快速入门
+## 快速入门
  
-> #### 获取代码
-```git clone https://github.com/Vulcan-YJX/RYKJ.git```
-> * #### 修改./RYKJ/esp8266/main.py
->> * ##### 修改SSID、PASSWD为自己连接热点名和密码。
->> * ##### 修改Key标签为公众号获得的key。
->> * ##### [刷写固件教程](https://mp.weixin.qq.com/s/ugy4Tf-XNJb_Zs9e56DNgA)
->> * ##### 修改Key标签为公众号获得的key。
->> * ##### 上传修改后的文件到eps8266
->>> ```ampy --port 设备端口号 put main.py           ```
->>> ```ampy --port 设备端口号 put boot.py```
->> * #### 下载控制端查看运行结果
->>> ```https://share.weiyun.com/5NNDGFs```
+ #### Windows 
+```setup.bash 端口号```
+ 
+#### Linux
+```./setup.sh 端口号```
+#### 刷写过程中请将IO0引脚拉低，当出现connect....____.....时请迅速重启芯片即可完成烧写
+
+## 修改配置文件
+* ##### 将config.txt放入SD卡。
+* ##### 修改SSID、PASSWD为自己连接热点名和密码。
+* ##### 修改Key标签为公众号获得的key。
+* ##### 修改ＩＤ标签为对应的服务。
+```０：发送图片到微信；１：人脸定位，最多定位五个人脸;```
+* ##### 通过串口以115200的波特率发送数据picserver触发服务。
