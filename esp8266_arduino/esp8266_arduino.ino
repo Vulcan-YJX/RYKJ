@@ -38,7 +38,7 @@ void setup()
     else{
           client.print(KeyMark);
       }
-    flipper.attach(180, flip);//每隔0.5秒执行一次回调函数
+    flipper.attach(180, flip);//每隔180秒执行一次回调函数
 }
 
 void loop()
