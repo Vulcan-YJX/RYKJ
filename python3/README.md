@@ -6,6 +6,7 @@ RYKJ
 >#### 替换后使用Python工具运行脚本
 
 
+# 图像功能已经暂停使用
 # 在运行picServer时请安装opencv-python
 ## ubuntu用户
 ```sudo pip3 install opencv-python```
