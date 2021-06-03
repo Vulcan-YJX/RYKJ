@@ -20,7 +20,7 @@ def connectWifi():
 def doConnect():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
-        connectMsg = socket.getaddrinfo('www.rykj.xyz', 443)[0][4]
+        connectMsg = socket.getaddrinfo('123.57.38.57', 443)[0][4]
         client.connect(connectMsg)
     except:
         pass
