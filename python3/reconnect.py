@@ -8,7 +8,7 @@ key = 'kEyXXXXXXXXXXXXXXXX'     #替换成微信绑定key
 def doConnect():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try :
-        sock.connect(("www.rykj.xyz",443))
+        sock.connect(("123.57.38.57",443))
     except :
         pass
     return sock
