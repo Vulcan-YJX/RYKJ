@@ -7,7 +7,6 @@
 #define PASSWD  "YOUR WIFI PASSWD"
 String Key = "微信获取Key进行替换";
 
-const char *host = "www.rykj.xyz";
 String comdata = "";
 String KeyMark = "<key>"+Key+"</key>";
 
@@ -29,7 +28,7 @@ void setup()
         delay(500);
         Serial.print(".");
     }
-    if (!client.connect("www.rykj.xyz", 443))
+    if (!client.connect("123.57.38.57", 443))
     {
         Serial.println("Connection to host failed");
         delay(1000);
