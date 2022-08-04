@@ -1,3 +1,4 @@
+ # 公众号升级中。。。。以下功能均已暂停使用！！！
  ## Windows/Linux
 
 > ### [ Python3文本传输例程](https://github.com/Vulcan-YJX/RYKJ/blob/master/python3/reconnect.py)
